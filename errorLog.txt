@@ -1,0 +1,3 @@
+!? InvalidSyntaxException: $choice==0
+
+	test.zta @ line 4 during COMPILATION

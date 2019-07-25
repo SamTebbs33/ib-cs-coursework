@@ -1,0 +1,41 @@
+* Bugs
+
+* Syntax
+method return types
+<= and >=
+import("libname.zetta") makes a variable $libname, $libName.method()
+no more semi colons
+nested method calls on variable declaration?
+variable and null comparison ($var = null)
+
+* Constructs
+struct (like in C)
+repeat will loop body x times
+nested for loop in one construct e.g. forboth($var1, $var2, $collection1, $collection2)
+
+* Methods and Data Types
+Dialogue window library
+Random library
+$dictionary.set(sequence, sequence)
+$time.restart() resets time
+$array.fill(), .empty(), append(), remove()
+run(String $file, Array<String> $args) executes zetta file
+$str.indexOf() with additional number arguments for start and end
+$array.copy(start, end)
+$file.isFile() returns true if exists and not dir
+Dedicated Date type
+DialogueBox.iconInfo() et.c return strings for icons
+pattern matching in file methods
+Add documentation generation for Data Type specifics like sortArray(), operatorEquals() etc.
+$file.contains() searches file for argument and returns line number
+$file.driveTotalSpace(), driveUseableSpace(), drive.freeSpace()
+$file.writeFormat() write results of $file.parse()
+
+* Interactivity
+Documentation generator
+Shell with interactive help
+Interactive web app like codeacademy
+Compile program into a token file?
+
+* API
+event system?

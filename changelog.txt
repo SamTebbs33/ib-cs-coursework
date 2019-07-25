@@ -1,0 +1,80 @@
+Notation:
++ Addition
+- Change
+
+Methods:
++ $string.charAt()
++ $string.startsWith()
++ $string.endsWith()
++ $string.contains()
++ $string.sub()
++ $string.swapCase()
++ $string.toLowerCase()
++ $string.toUpperCase()
++ $string.trim()
+- $array.setIndex() -> $array.set()
+- $array.getIndex() -> $array.get()
++ exit()
+- int() -> Maths.eval()
+- string() -> String.eval()
++ $string.concat()
++ $var.name()
+- println() and print() take multiple arguments or no arguments
++ $array.rand()
++ $file.getExtension()
+- $file.archive() and $file.delete() now work with subdirectories
+- $file.clear() now deletes a directory's subdirectories
++ $var.input() -> $var = input()
+- Removed goto() and $var.setVar()
++ $file.escape()
++ $file.getChild() and $file.hasChild()
++ $file.absolute()
++ import()
++ $file.mode()
++ $file.parse()
++ println() and $file.writeln() now print the arguments on a new line
++ $file.seek()
++ $file.pointer()
++ $file.readNums()
++ Arrays.toDict()
++ $dict.values
++ $dict.keys()
++ $file.readBytes()
++ $file.readNextInt(), readNextBool(), readNext()
++ File.rootDirs()
++ File.userDir()
++ File.scriptDir()
++ Bool method library
+
+Constructs:
++ foreach loop
++ for loop
++ forall loop
++ if and else statements (single condition, will improve later on)
++ while loop
+
+Modules:
++ Maths
++ Time
++ DialogueBox
+
+Data types:
+- Int -> Num (all numbers are now treated as decimals)
+- Arrays are no longer fixed-length and can be expanded
++ Dictionary
+- Array and Dictionary declarations now take sequences
++ Array declarations now take a data type argument
+
+Syntax:
++ Sequences
++ User-defined methods
++ Multiple variable declarations on one line
++ Variable assignment syntax ([Data Type] $variable = something)
++ Nested method calls, like $string.sub(0, 5).indexOf("a")
+
+Error handling:
++ MathematicalException
+- Renamed all exceptions
+
+Technical:
+- Improved compiler, compilations should now be faster
